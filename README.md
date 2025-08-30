@@ -2,11 +2,15 @@
 
 Este projeto tem como objetivo testar o site de demonstração da EBAC Shop, garantindo que todas as funcionalidades funcionem corretamente de ponta a ponta.
 
+_________________________________________________
+
 🚀 Tecnologias e Bibliotecas Utilizadas
 
 Cypress 🧪 – Framework de automação para escrever e executar testes de forma eficiente.
 
 Faker 🎭 – Biblioteca para gerar dados de teste dinâmicos, como nomes, e-mails e endereços.
+
+_________________________________________________
 
 ⚡ Funcionalidades Testadas
 
@@ -19,6 +23,8 @@ Adição de produtos ao carrinho 🛍️
 Processo de checkout 💳
 
 Validação de mensagens de erro ❌
+
+________________________________________________
 
 📦 Como Rodar o Projeto
 
@@ -41,10 +47,13 @@ Execute os testes diretamente pelo Cypress ou em modo headless:
 
 npx cypress run
 
+________________________________________________
+
 🌟 Observações
 
 Todos os testes foram desenvolvidos seguindo boas práticas de Automação de Testes e Testes End-to-End.
 
 Ideal para quem deseja aprender Cypress e automação de testes em e-commerce.
+
 
 
