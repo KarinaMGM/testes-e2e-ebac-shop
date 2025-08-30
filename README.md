@@ -1,54 +1,20 @@
-# Testes End to End - Ebac Shop
-### Exercício para os alunos de Qualidade de software da EBAC 
+Testes End-to-End - EBAC Shop
 
-Ebac shop: http://lojaebac.ebaconline.art.br/
+O objetivo é testar o site de demonstração da Ebac Shop.
 
-## Clonando e executando em sua máquina
+Para desenvolver este projeto, utilizei as seguintes bibliotecas e ferramentas:
 
-### Pré-requisito:
+Cypress: O framework de automação que usamos para escrever e rodar os testes.
 
--Node.js - Você encontra em: https://nodejs.org/en/
+Faker: Uma biblioteca essencial para gerar dados de teste dinâmicos, como nomes, e-mails e endereços.
 
--Visual Studio Code ou qualquer editor de texto - você encontra em: https://code.visualstudio.com/download
+Pré-requisitos
+Antes de começar, certifique-se de que você tem o seguinte instalado na sua máquina:
 
--Git: você encontra em: https://git-scm.com/downloads
+Node.js: para poder executar o projeto. Se ainda não tem, baixe em nodejs.org.
 
+Git: para clonar o repositório. O download está disponível em git-scm.com.
 
-Via terminal, rode os seguintes comandos:
-```  
-git clone https://github.com/EBAC-QE/testes-e2e-ebac-shop.git
-```
-```
-cd testes-e2e-ebac-shop
-```
-
-#### Para instalar as dependencias:
-```
-npm install 
-```
-
-#### Para executar em moodo Headlesss via console:
-```
-npx cypress run
-```
-
-#### Para executar via Dashboard:
-```
-npx cypress open 
-```
-Após abrir o dasboard, clique na opção "Running integration tests" para rodar todos os testes.
-
-
-### Bibliotecas de apoio:
--Cypress: Framework de automação: https://cypress.io/
-
--Faker: Biblioteca para geração de massa de dados: https://www.npmjs.com/package/faker
-
-
-### Bom exercício ;) 
-Fábio & José Ernesto
-Qualidade de software
-
-
+Visual Studio Code (ou qualquer outro editor de código) para trabalhar no projeto.
 
 
