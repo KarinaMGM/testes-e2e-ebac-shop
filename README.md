@@ -1,20 +1,50 @@
-Testes End-to-End - EBAC Shop
+🛒 Testes End-to-End - EBAC Shop
 
-O objetivo é testar o site de demonstração da Ebac Shop.
+Este projeto tem como objetivo testar o site de demonstração da EBAC Shop, garantindo que todas as funcionalidades funcionem corretamente de ponta a ponta.
 
-Para desenvolver este projeto, utilizei as seguintes bibliotecas e ferramentas:
+🚀 Tecnologias e Bibliotecas Utilizadas
 
-Cypress: O framework de automação que usamos para escrever e rodar os testes.
+Cypress 🧪 – Framework de automação para escrever e executar testes de forma eficiente.
 
-Faker: Uma biblioteca essencial para gerar dados de teste dinâmicos, como nomes, e-mails e endereços.
+Faker 🎭 – Biblioteca para gerar dados de teste dinâmicos, como nomes, e-mails e endereços.
 
-Pré-requisitos
-Antes de começar, certifique-se de que você tem o seguinte instalado na sua máquina:
+⚡ Funcionalidades Testadas
 
-Node.js: para poder executar o projeto. Se ainda não tem, baixe em nodejs.org.
+Cadastro de usuário 📝
 
-Git: para clonar o repositório. O download está disponível em git-scm.com.
+Login e autenticação 🔑
 
-Visual Studio Code (ou qualquer outro editor de código) para trabalhar no projeto.
+Adição de produtos ao carrinho 🛍️
+
+Processo de checkout 💳
+
+Validação de mensagens de erro ❌
+
+📦 Como Rodar o Projeto
+
+Clone este repositório:
+
+git clone https://github.com/seu-usuario/ebac-shop-e2e.git
+
+
+Instale as dependências:
+
+npm install
+
+
+Abra o Cypress:
+
+npx cypress open
+
+
+Execute os testes diretamente pelo Cypress ou em modo headless:
+
+npx cypress run
+
+🌟 Observações
+
+Todos os testes foram desenvolvidos seguindo boas práticas de Automação de Testes e Testes End-to-End.
+
+Ideal para quem deseja aprender Cypress e automação de testes em e-commerce.
 
 
